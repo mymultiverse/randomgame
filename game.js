@@ -128,8 +128,7 @@ function draw(){
              
         pipe[i].px-=10;  // this should be such that if condition for equality should be
         //satisfied with cvs.weidth (canvas width) 
-        /*blt[i].bx-=1;
-        cld[i].cx-=1;*/
+        /*blt[i].bx-=1;*/
         
         if( pipe[i].px == 200 ){
             pipe.push({
@@ -154,10 +153,10 @@ function draw(){
         }
         
 
-/*        if(pipe[i].x < bX){
+        if(pipe[i].x < bX){
             score+=1;
             scor.play();
-        }     */
+        }    
         
     }
     
