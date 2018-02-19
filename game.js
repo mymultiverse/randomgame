@@ -153,8 +153,8 @@ function draw(){
         }
         
 
-        if(pipe[i].x < bX){
-            score+=1;
+        if(pipe[i].px < 10){
+            score+=0.0001;
             scor.play();
         }    
         
@@ -175,27 +175,4 @@ function draw(){
 }
 
 draw();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
